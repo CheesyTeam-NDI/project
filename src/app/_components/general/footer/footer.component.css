@@ -1,0 +1,27 @@
+.column {
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 10px 12.5% 10px 12.5%;
+    background-color: #010038;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    
+  }
+
+
+  .row{
+      width: 100%;
+  }
+
+  .row:after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  footer{
+      background-color: #010038;
+  }
+  
