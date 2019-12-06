@@ -1,25 +1,57 @@
-<h1>Les revenus de la famille</h1>
-<div>
-    <form method="post" id="formRevenu">
-        Les revenus 2018 figurant sur l’avis fiscal 2019 détenu par la famille de l’étudiant: <br /><br /><input
-            type="text" ng-model="revenu">
-    </form>
-</div><br />
-<h1>Le nombre d'enfants à charge fiscale de la famille</h1>
-<div>
-    <form method="post" id="formNbFrSr">
-        Nombre de frères et sœurs du candidat boursier: <br /><br /><input type="text" ng-model="nbFrSr">
-    </form><br/>
-    <form method="post" id="formFrSrSup">
-            dont frères et sœurs étudiant dans l'enseignement supérieur: <br /><br/><input
-            type="text" ng-model="frSrSup">
-    </form><br/>
-</div>
-<h1>L'éloignement du lieu d'études</h1>
-<div>
-    <form action="/action_page.php" method="get">
-        <input type="radio" name="res" value="0-30" checked> de 0 à 30 kilomètres<br>
-        <input type="radio" name="res" value="30-249"> de 30 à 249 kilomètres<br>
-        <input type="radio" name="res" value="250+"> de 250 kilomètres et plus<br>
-    </form>
-</div>
+<h1>Simulations d'aides</h1>
+<form method="GET" action="resultats-simulation.html">
+
+    <h3>Prenom</h3>
+    <input type="text" value="Cheesy"><br>
+
+    <h3>Date de naissance</h3>
+    <input type="date" name="bday">
+
+    <h3>Code postal</h3>
+    <input type="number" name="codepostal" required><br>
+
+    <h3>Nationalité</h3>
+    <input type="radio" name="natio" value="francais" checked>Francais<br>
+    <input type="radio" name="natio" value="europeenne">Européenne<br>
+    <input type="radio" name="natio" value="non-europeenne">Non européenne<br>
+
+    <h3>Vous êtes ..</h3>
+    <input type="checkbox" name="vous-etes" value="etudiant" checked>Etudiant<br>
+    <input type="checkbox" name="vous-etes" value="handicap">Situation de handicap<br>
+    <input type="checkbox" name="vous-etes" value="demandeur">Demandeur d'emploi<br>
+    <input type="checkbox" name="vous-etes" value="enceinte">Enceinte<br>
+    <input type="checkbox" name="vous-etes" value="rien">Je ne suis dans aucune de ces situations<br>
+
+    <h3>Situation amoureuse</h3>
+    <input type="radio" name="amour" value="celibataire" checked>Célibataire<br>
+    <input type="radio" name="amour" value="couple">En Couple<br>
+
+    <h3>Logement principal</h3>
+    <input type="radio" name="logement" value="locataire" checked>Locataire<br>
+    <input type="radio" name="logement" value="proprietaire">Propriétaire<br>
+    <input type="radio" name="logement" value="heberge">Hébergé<br>
+    <input type="radio" name="logement" value="sdf">Sans domicile fixe<br>
+
+    <h3>Montant des mensualités</h3>
+    <input type="number" name="mensu" value="0" required>€<br>
+
+    <h3>Vos aides</h3>
+    <h4>Revenus</h4>
+    <input type="checkbox" name="aides" value="salaire">Salaire (dont primes et indemnités)<br>
+    <input type="checkbox" name="aides" value="revenus-stage">Revenus de stage de formation professionnelle<br>
+    <input type="checkbox" name="aides" value="remunaeration-stage">Rémunération de stage<br>
+    <h4>Allocations</h4>
+    <input type="checkbox" name="aides" value="apl">Aides au logement (APL)<br>
+    <input type="checkbox" name="aides" value="are">Allocations chomages (ARE)<br>
+    <input type="checkbox" name="aides" value="af">Allocations familiales<br>
+    <h4>Pensions</h4>
+    <input type="checkbox" name="aides" value="alimentaire">Pensions alimentaires<br>
+    <input type="checkbox" name="aides" value="invalidite">Pension d'invalidite<br>
+    <h4>Autres</h4>
+    <input type="checkbox" name="aides" value="apl">Bourse de l'enseignement supérieur<br>
+    <input type="checkbox" name="aides" value="are">Bourse de recherche<br>
+
+    <input type="submit" (click)="onSubmit()">
+
+
+</form>
