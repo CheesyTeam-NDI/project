@@ -1,0 +1,28 @@
+.header-main {
+  width: 100vw;
+  height: 10vh;
+}
+
+.header-logo-holder {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+}
+
+.header-logo {
+  display: block;
+  margin: 0.25vh auto;
+  height: 9.5vh;
+}
+
+.header-account {
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  height: 5vh;
+  width: 5vw;
+
+  margin: 2.5vh 2.5vw;
+}
