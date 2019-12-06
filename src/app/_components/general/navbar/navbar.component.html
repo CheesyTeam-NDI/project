@@ -1,13 +1,18 @@
-<div class="container-fluid">
+<div class="container-fluid" id="navbar-container">
+  <div *ngIf="showCallToAction" class="row justify-content-center">
+    <div class="col-sm">
+      <button type="button" class="btn btn-block btn-primary">Simuler mes droits</button>
+    </div>
+    <div class="col-sm">
+      <button type="button" class="btn btn-block btn-outline-primary">Être conseillé</button>
+      <p class="text-white small text-center">Je prends contact avec des d'étudiants expérimentés</p>
+    </div>
+  </div>
   <div class="row">
-    <div class="col-sm-4">
-      <button type="button" id="id" class="btn btn-block btn-outline-primary">Primary</button>
-    </div>
-    <div class="col-sm-4">
-      <button type="button" class="btn btn-block btn-outline-primary">Primary</button>
-    </div>
-    <div class="col-sm-4">
-      <button type="button" class="btn btn-block btn-outline-primary">Primary</button>
+    <div class="col">
+      <form>
+        <input class="form-control form-control-lg" type="text" placeholder="Rechercher une ressource...">
+      </form>
     </div>
   </div>
 </div>

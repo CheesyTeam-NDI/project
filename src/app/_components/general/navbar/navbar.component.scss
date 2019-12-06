@@ -1,7 +1,21 @@
-.btn-outline-primary {
-  margin-top: 2vh;
-  margin-bottom: 2vh;
+#navbar-container {
+  margin:0px;
+  background: url("src/assets/general/background.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
 
-  border-color: #f39422;
-  color: #f39422;
+  position: absolute;
+  top: 0;
+  padding-top: 11vh;
+  padding-bottom: 1vh;
+}
+
+.col-sm .btn-outline-primary, .col-sm .btn-primary {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+input {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
 }
