@@ -1,0 +1,21 @@
+#navbar-container {
+  margin:0px;
+  background: url("src/assets/general/background.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  position: absolute;
+  top: 0;
+  padding-top: 11vh;
+  padding-bottom: 1vh;
+}
+
+.col-sm .btn-outline-primary, .col-sm .btn-primary {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+input {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
