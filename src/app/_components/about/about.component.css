@@ -1,5 +1,52 @@
-body {
-    background-color: yellow;
-    color: blue;
-    font-size: large;
+img {
+    width: 40%;
+    align-content: center;
+    transition: 2s;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
 }
+
+img:hover {
+    width: 50%;
+    transition: 2s;
+    transform: rotate(720deg);
+}
+
+td {
+    width: 30%;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    align-items: center;
+    
+}
+
+tr td{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+h3 {
+    font-size: larger;
+}
+
+p {
+    font-size: medium;
+}
+
+.about_men {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+#raclette {
+    width: 70%;
+    transition: 0s;
+    
+}
+
+
