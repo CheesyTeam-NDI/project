@@ -15,6 +15,8 @@ import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 
 import { TruncateModule } from 'ng2-truncate';
 import { NotFoundComponent } from './_components/not-found/not-found.component';
+import {SimulationComponent} from './_components/simulation/simulation.component';
+import { ResultatSimulationComponent } from './_components/resultat-simulation/resultat-simulation.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { NotFoundComponent } from './_components/not-found/not-found.component';
     LoginComponent,
     RessourcesDetailsComponent,
     RessourcesListComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    SimulationComponent,
+    ResultatSimulationComponent
   ],
   imports: [
     BrowserModule,
