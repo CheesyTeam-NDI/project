@@ -15,6 +15,7 @@ export class HeaderComponent implements OnInit {
   constructor() {
   }
 
+  connected = false;
   ngOnInit() {
   }
 

@@ -1,10 +1,11 @@
 <div class="header-main">
   <div class="header-logo-holder">
-    <a class="header-logo" routerLink="">
-      <img class="header-logo" src="assets/general/logo.png">
-    </a>
+    <img class="header-logo" routerLink="" src="assets/general/logo.png">
   </div>
   <div class="header-account">
-    <fa-icon icon="user-circle" size="2x"></fa-icon>
+    <div *ngIf="!connected" class="header-account-disconnected">
+      <span class="header-account-disconnected-text">Se connecter</span>
+      <fa-icon class="header-account-disconnected-icon" icon="user-circle" size="2x"></fa-icon>
+    </div>
   </div>
 </div>
