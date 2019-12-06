@@ -1,5 +1,5 @@
-import {BrowserModule} from '@angular/platform-browser';
-import {NgModule} from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
 
 import {AppComponent} from './app.component';
 import {AboutComponent} from './_components/about/about.component';
@@ -14,6 +14,7 @@ import {RessourcesListComponent} from './_components/ressources/ressources-list/
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 
 import { TruncateModule } from 'ng2-truncate';
+import { NotFoundComponent } from './_components/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { TruncateModule } from 'ng2-truncate';
     NavbarComponent,
     LoginComponent,
     RessourcesDetailsComponent,
-    RessourcesListComponent
+    RessourcesListComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
