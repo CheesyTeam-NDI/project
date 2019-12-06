@@ -1,0 +1,11 @@
+<div class="main">
+  <div *ngFor="let aide of aides">
+    <div class="row" style="margin-top:10px">
+      <div class="col-md-3"><img class="float-md-right" src ="assets/logos/{{aide.id}}.png"></div>
+      <div class="col-md-9" style="margin-top:20px">
+        <div class="title">{{aide.titre}}</div>
+        <div class="text">{{aide.description}}</div>
+      </div>
+    </div>
+  </div>
+</div>

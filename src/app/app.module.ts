@@ -8,10 +8,12 @@ import {HeaderComponent} from './_components/general/header/header.component';
 import {NavbarComponent} from './_components/general/navbar/navbar.component';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import {AppRoutingModule} from './app-routing.module';
+import { HomepageComponent } from './_components/homepage/homepage.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    HomepageComponent,
     AboutComponent,
     FooterComponent,
     HeaderComponent,
