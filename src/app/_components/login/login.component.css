@@ -1,0 +1,89 @@
+.page--content {
+  padding: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.page--content .form {
+  padding-top: 15vh;
+}
+
+.page--content .form .form__holder {
+  margin: 0 auto;
+  width: 20rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.page--content .form .form__holder .form__header {
+  padding: 0;
+}
+
+.page--content .form .form__holder .form__header .form__holder-tabs {
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.page--content .form .form__holder .form__header .form__holder-tabs .form__tabs {
+  width: 50%;
+}
+
+.page--content .form .form__holder .form__header .form__holder-tabs .form__tabs .form__link {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom: 0;
+  border-top: 0;
+  text-align: center;
+}
+
+.page--content .form .form__holder .form__header .form__holder-tabs .form__tabs .form__link--underline {
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 0 2px;
+  transition: background-size .3s;
+}
+
+.page--content .form .form__holder .form__header .form__holder-tabs .form__tabs .form__link--underline:hover:not(.active), .page--content .form .form__holder .form__header .form__holder-tabs .form__tabs .form__link--underline:focus:not(.active) {
+  background-size: 100% 2px;
+}
+
+.page--content .form .form__holder .form__body {
+  padding: 1rem 2rem 1rem;
+}
+
+.page--content .form .form__holder .form__body label {
+  font-weight: 600;
+}
+
+.page--content .form .form__holder .form__body .form__side--1 .form__login {
+  width: 100%;
+}
+
+.page--content .form .form__holder .form__body .form__side--2 {
+  display: none;
+}
+
+.page--content .form .form__holder .form__body .form__side--2 .form__password-help {
+  font-size: 0.75rem;
+}
+
+.page--content .form .form__holder .form__body .form__button {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  transition: all 0.2s;
+}
+
+.form-control:valid {
+  border-color: green;
+}
+
+.not-valid {
+  border-color: red !important;
+}

@@ -1,5 +1,5 @@
-import {BrowserModule} from '@angular/platform-browser';
-import {NgModule} from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
 
 import {AppComponent} from './app.component';
 import {AboutComponent} from './_components/about/about.component';
@@ -9,6 +9,7 @@ import {NavbarComponent} from './_components/general/navbar/navbar.component';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import {AppRoutingModule} from './app-routing.module';
 import {HomepageComponent} from './_components/homepage/homepage.component';
+import {LoginComponent} from './_components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import {HomepageComponent} from './_components/homepage/homepage.component';
     AboutComponent,
     FooterComponent,
     HeaderComponent,
-    NavbarComponent
+    NavbarComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
