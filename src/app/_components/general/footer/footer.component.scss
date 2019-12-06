@@ -1,0 +1,28 @@
+.column {
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 10px 12.5% 10px 12.5%;
+    background-color: #010038;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+.logo{
+    padding-top: 5px;
+    padding-left: 10px;
+}
+ 
+  .row{
+      width: 100%;
+      background-color: #010038;
+  }
+
+  .row:after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  
