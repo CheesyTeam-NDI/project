@@ -17,7 +17,7 @@ export class SimulationComponent implements OnInit {
 }
 
 function onSubmit() {
-  let montant = $('#montant').val();
+  
 
 }
 

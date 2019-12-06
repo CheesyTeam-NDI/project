@@ -7,30 +7,30 @@ export class SimulationServiceService {
 
   constructor() { }
 
-  traitement(nationalite, aides, statut, logement) {
-    let tab = [0, 0, 0, 0, 0, 0]; // 6 items
-    if (nationalite == 0 && !aides[8]) {
-      tab[0] = 6734;
-    }
-    if (aides[8] || aides[9] && statut[0]) {
-      tab[1] = 1200;
-    }
-    if (!nationalite[0] && statut[0] && aides[4]) {
-      tab[2] = 2000;
-    }
-    if (!nationalite[0] && !aides[4] && logement[3]) {
-      tab[3] = 3600;
-    }
-    if (statut[0] && statut[1]) {
-      tab[4] = 4831;
-    }
-    if (statut[4]) {
-      tab[5] = 1600;
-    }
+  // traitement(nationalite, aides, statut, logement) {
+  //   let tab = [0, 0, 0, 0, 0, 0]; // 6 items
+  //   if (nationalite == 0 && !aides[8]) {
+  //     tab[0] = 6734;
+  //   }
+  //   if (aides[8] || aides[9] && statut[0]) {
+  //     tab[1] = 1200;
+  //   }
+  //   if (!nationalite[0] && statut[0] && aides[4]) {
+  //     tab[2] = 2000;
+  //   }
+  //   if (!nationalite[0] && !aides[4] && logement[3]) {
+  //     tab[3] = 3600;
+  //   }
+  //   if (statut[0] && statut[1]) {
+  //     tab[4] = 4831;
+  //   }
+  //   if (statut[4]) {
+  //     tab[5] = 1600;
+  //   }
 
-    return tab;
+  //   return tab;
 
-  }
+  // }
 
   // Entrees
   prenom = "";
@@ -44,7 +44,7 @@ export class SimulationServiceService {
   aides = []; // 10 cases
 
   // Sorties
-  resultat = this.traitement(); // selon le traitement
+  // resultat = this.traitement(); // selon le traitement
 
   
 
