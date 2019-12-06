@@ -1,0 +1,40 @@
+<div class="container-fluid" id="body">
+  <h1 id="resourceTitle"> {{resourceTitle}} </h1>
+
+  <div id="image">
+    <img class="img-fluid" src="assets/{{image}}.png" alt="RessourceImg"
+         onclick="document.getElementById('demo').innerHTML = 'Félindra ... tête de Tigre !'; ">
+  </div>
+
+  <div  id="desc">{{description}}</div>
+
+  <div class="row">
+
+    <div class="col-md-auto offset-md-1" id="contactTitle">
+
+      <div class="row">
+        <div class="col">
+          <u>Contact </u>:
+
+          <div>Nom : {{nom}}</div>
+          <div>Adresse : {{adresse}}</div>
+          <div>Mail : {{email}}</div>
+          <div>Telephone : {{tel}}</div>
+        </div>
+
+        <div class="col-md-auto offset-md-1.3">
+          <div class="container-fluid">
+            <div class="col" >
+              {{geolocalisation}}
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <h1 id="demo"></h1>
+
+</div>

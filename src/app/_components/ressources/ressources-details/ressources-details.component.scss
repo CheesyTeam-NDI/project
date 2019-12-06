@@ -1,0 +1,41 @@
+#body {
+  background: linear-gradient(to bottom right, #537ec5, #293a80);
+
+  //width : 75vw;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0.5vw;
+  margin-bottom: 2vh;
+}
+
+#resourceTitle {
+  text-align: center;
+  color: white;
+  margin-bottom: 4vh;
+
+}
+
+#image {
+  width: 20vw;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5vh;
+}
+
+#desc {
+  text-align: center;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  margin-bottom: 0.8vh;
+  padding: 0.5vw;
+}
+
+.container {
+  padding: 2vw;
+}
