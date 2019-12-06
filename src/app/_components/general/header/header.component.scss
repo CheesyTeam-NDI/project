@@ -1,0 +1,50 @@
+.header-main {
+  width: 100%;
+  height: 10vh;
+
+  position: absolute;
+  top: 0;
+}
+
+.header-logo-holder {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.header-logo {
+  display: block;
+  margin: 0.25vh auto;
+  height: 9.5vh;
+  cursor: pointer;
+}
+
+.header-account {
+  position: absolute;
+  right: 2.5vw;
+  top: 1.5vh;
+
+  height: 5vh;
+}
+
+.header-account-content {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header-account-disconnected-text {
+  margin-right: 5px;
+}
+
+.header-account-disconnected-icon {
+  color: #F39422;
+}
+
+.header-account-connected-image {
+  border-radius: 50%;
+  width: 4vw;
+  height: 4vw;
+}
+
