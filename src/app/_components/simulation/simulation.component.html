@@ -1,1 +1,25 @@
-<p>simulation works!</p>
+<h1>Les revenus de la famille</h1>
+<div>
+    <form method="post" id="formRevenu">
+        Les revenus 2018 figurant sur l’avis fiscal 2019 détenu par la famille de l’étudiant: <br /><br /><input
+            type="text" ng-model="revenu">
+    </form>
+</div><br />
+<h1>Le nombre d'enfants à charge fiscale de la famille</h1>
+<div>
+    <form method="post" id="formNbFrSr">
+        Nombre de frères et sœurs du candidat boursier: <br /><br /><input type="text" ng-model="nbFrSr">
+    </form><br/>
+    <form method="post" id="formFrSrSup">
+            dont frères et sœurs étudiant dans l'enseignement supérieur: <br /><br/><input
+            type="text" ng-model="frSrSup">
+    </form><br/>
+</div>
+<h1>L'éloignement du lieu d'études</h1>
+<div>
+    <form action="/action_page.php" method="get">
+        <input type="radio" name="res" value="0-30" checked> de 0 à 30 kilomètres<br>
+        <input type="radio" name="res" value="30-249"> de 30 à 249 kilomètres<br>
+        <input type="radio" name="res" value="250+"> de 250 kilomètres et plus<br>
+    </form>
+</div>
