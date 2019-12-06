@@ -11,11 +11,13 @@ export class SimulationComponent implements OnInit {
   }
 
   ngOnInit() {
+
   }
 
 }
 
 function onSubmit() {
+  let montant = $('#montant').val();
 
 }
 
