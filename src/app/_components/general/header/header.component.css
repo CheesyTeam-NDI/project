@@ -19,17 +19,16 @@
 
 .header-account {
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 2.5vw;
+  top: 1.5vh;
 
   height: 5vh;
-
-  margin: 2.5vh 2.5vw;
 }
 
-.header-account-disconnected {
+.header-account-content {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .header-account-disconnected-text {
@@ -38,5 +37,11 @@
 
 .header-account-disconnected-icon {
   color: #F39422;
+}
+
+.header-account-connected-image {
+  border-radius: 50%;
+  width: 4vw;
+  height: 4vw;
 }
 
