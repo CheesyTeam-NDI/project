@@ -9,8 +9,8 @@ import { Aide } from 'src/app/_models/aides';
 export class HomepageComponent implements OnInit {
 
   aides: Aide[];
-  constructor() { 
-    
+  constructor() {
+
 }
 
 
@@ -20,8 +20,8 @@ export class HomepageComponent implements OnInit {
                   new Aide("La CAF","La CAF peut fournir des aides au logement aux étudiants.",2),
                   new Aide("Les bourses","Il est également possible de demander des bourses selon votre situation sociale, si vous êtes un étudiant ERASMUS...",3),
                   new Aide("La Mission Locale","La mission locale oriente et suit le parcours des anciens étudiants dans un but d'insertion professionnelle et sociale.",4),
-                  new Aide("L'Allocation logement","Action Logement peut fournir une subvention allégeant la quittance loyer.",5)];
-    
+                  new Aide("L'Allocation Logement","Action Logement peut fournir une subvention allégeant la quittance loyer.",5)];
+
   }
 
 }
